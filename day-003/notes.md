@@ -2,7 +2,7 @@
 
 - [Built-in Data Types](#built-in-data-types)
 - [Getting the Data Type](#getting-the-data-type)
-- [Setting the Data Type]
+- [Setting the Data Type](#setting-the-data-type)
 
 
 ## Built-in Data Types
