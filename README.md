@@ -1,6 +1,13 @@
-# 100 days of coding 
-## Python 
-## 100 days journey.
+# **`100 days of coding`** 
+## **Learning Python**
+### **100 days journey**
+
+## **Two Main Rules**
+
+1.  Code minimum an hour every day for the next 100 days.
+2. Share your progress every day with the 
+
+        #100DaysOfCode hashtag.
 
 - [Day 001 - Python Introduction](./day-001/day-001.md)
 - [Day 002 - Python Variables](./day-002/day-002.md)
