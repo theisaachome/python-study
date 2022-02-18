@@ -11,7 +11,10 @@
     - [In the keyword](#in-the-keyword)
 - [Change List Items](#change-list-items)
     - [Change a range of Item Values](#change-a-range-of-item-values)
-- [Add List Items](#)
+- [Add List Items](#add-list-items)
+    - [Append Items](#append-items)
+    - [Insert Items](#insert-items)
+    - [Extend List](#extend-list)
 
 ## **`List`**
 
