@@ -15,6 +15,13 @@
     - [Append Items](#append-items)
     - [Insert Items](#insert-items)
     - [Extend List](#extend-list)
+- [Remove List Items](#remove-list-items)
+    - [Remove Method](#remove-method)
+    - [Pop Method](#pop-method)
+    - [del keywordd](#del-keyword)
+    - [clear method](#clear-method)
+- [Looping List](#looping-list)
+    - [for loop](#for-loop)
 
 ## **`List`**
 
@@ -208,4 +215,89 @@ listOne = ["apple", "banana", "cherry"]
 listTwo = ["mango", "pineapple", "papaya"]
 listOne.extend(listTwo)
 print(listOne)
+```
+
+---
+## **`Remove List Items`**
+
+
+### **`remove method`**
+The remove() method removes the specified item.
+
+Example
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+print(myContact);
+myContact.remove("John Cena");
+print(myContact);
+```
+
+### **`pop method`**
+The pop() method removes the specified index.
+
+Example
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+myContact.pop(2);
+```
+
+If you do not specify the index, the `pop()` method removes the last item.
+
+Example
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+myContact.pop(); #John Wick is removed
+```
+
+
+### `del` keyword
+
+The del keyword also removes the specified index:
+
+Example
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+del myContact[1];
+```
+
+The del keyword can also delete the list completely.
+
+Example
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+del myContact;
+```
+
+Empties the list.The list still remains, but it has no content.
+```py
+myContact = ["John Cena","The Rock","John Petrucci","John Wick"];
+del myContact[:];
+```
+
+
+### clear method
+The clear() method empties the list.
+
+The list still remains, but it has no content.
+
+```py
+
+onlineStudents = ["Aung Gyi","Kyaw Gyi","Zaw Gyi","Maw maw"];
+onlineStudents.clear();
+
+print(onlineStudents);
+```
+
+----
+## **`Looping list`**
+
+
+### **`for loop`**
+loop through the list items by using a for loop:
+
+Example:
+```py
+cities = ["Yanong","NewYork","Liverpool"];
+for city in cities:
+    print(city);
 ```
