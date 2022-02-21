@@ -1,4 +1,4 @@
-# **`Python List`**
+# **Python List**
 
 ## Table of Contents
 - [List](#list)
@@ -26,9 +26,12 @@
     - [while loop](#using-a-while-loop)
     - [list Comprehension](#looping-using-list-comprehension)
 - [List Comprehension](#list-comprehension)
-- [Sort List]
+- [Sort List](#sort-lists)
+    - [reverse sort](#sort-descending)
+- [Copy List](#copy-lists)
 
-## **`List`**
+
+## **List**
 
 Lists are used to store multiple items in a single variable.
 
@@ -40,20 +43,20 @@ Lists are created using square brackets:
 shoppingList = ["apple", "banana", "cherry"]
 ```
 
-## **`List Items`**
+## **List Items**
 
 List items are `ordered`, `changeable`, and allow `duplicate` values.
 
 List items are indexed starting from [0].
 
 
-### **`Ordered`**
+### **Ordered**
 
 The list items have a defined order,
 if you add new item to a list , it will be placed at the end of the list  and that order will not change.
 
 
-### **`Changeable`**
+### **Changeable**
 
 The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
 
@@ -74,7 +77,7 @@ students =["Aung Aunng","Zaw Zaw","Maw Maw","Thaw Thaw"];
 print(len(students))
 ```
 
-### **`Constructor`**
+### **Constructor**
 
 It is also possible to use the list() constructor when creating a new list.
 
@@ -85,7 +88,7 @@ myList = list(("apple", "banana", "cherry"))
 
 ---
 
-## **`Access List Item`**
+## **Access List Item`**
 
 List items are indexed and they can be  accessed them by referring to the index number:
 
@@ -95,7 +98,7 @@ students =["Aung Aunng","Zaw Zaw","Maw Maw","Thaw Thaw","Aung Aung"];
 print(students[1]);
 ```
 
-## **`Negative Indexing`**
+## **Negative Indexing**
 
 Negative indexing means start from the end
 
@@ -108,7 +111,7 @@ students =["Aung Aunng","Zaw Zaw","Maw Maw"];
 print(students[-1]); 
 ```
 
-## **`Range of Indexes`**
+## **Range of Indexes**
 
 Get a range of indexes by specifying where to `start` and where to `end` the range.
 
@@ -148,7 +151,7 @@ else:
 ```
 
 ---
-## **`Change List Items`**
+## **Change List Items**
 
 ### Change Item Value
 
@@ -162,7 +165,7 @@ emails[0]="aung@gmail.com";
 print(emails);
 ```
 
-## **`Change a Range of Item Values`**
+## **Change a Range of Item Values**
 
 To change the value of items within a specific range:
 
@@ -186,29 +189,33 @@ print(toBuyItems)
 
 ---
 
-## **`Add List Items`**
+## **Add List Items**
 
-### **`Append Items`**
+### **Append Items**
+
 To add an item to the end of the list, use the append() method:
 
 ```py
 emails.append("new@gmail.com");
+
 print(emails);
 ```
 
 
-### **`Insert Items`**
+### **Insert Items**
 To insert an item at a specified index,use the insert() method:
 
 ```py
 toBuyItems = ["apple", "banana", "cherry"]
+
 toBuyItems.insert(1, "orange")
+
 print(toBuyItems)
 ```
 
 ---
 
-## **`Extend List`**
+## **Extend List**
 
 ### Extend List
 
@@ -217,6 +224,7 @@ To append elements from another list to the current list, use the extend() metho
 Example
 ```py
 listOne = ["apple", "banana", "cherry"]
+
 listTwo = ["mango", "pineapple", "papaya"]
 listOne.extend(listTwo)
 print(listOne)
