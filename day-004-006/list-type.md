@@ -22,6 +22,11 @@
     - [clear method](#clear-method)
 - [Looping List](#looping-list)
     - [for loop](#for-loop)
+    - [loop index](#loop-through-the-index-numbers)
+    - [while loop](#using-a-while-loop)
+    - [list Comprehension](#looping-using-list-comprehension)
+- [List Comprehension](#list-comprehension)
+- [Sort List]
 
 ## **`List`**
 
@@ -300,4 +305,97 @@ Example:
 cities = ["Yanong","NewYork","Liverpool"];
 for city in cities:
     print(city);
+```
+
+
+### **Loop Through the Index Numbers**
+
+loop through the list items by referring to their index number.
+
+Use the range() and len() functions to create a suitable iterable.
+
+```py
+names = ["Khant Zaw","Kyaw Hsu Thway","Min Lwin","Kyaw Lwin","Myo Myit Aung"];
+for i in range(len(names)):
+    print(names[i])
+
+```
+
+### Using a While Loop
+
+Loop through the list items by using a while loop.
+
+Use the `len()` function to determine the length of the list, then start at 0 and loop your way through the list items by refering to their indexes.
+
+Remember to increase the index by 1 after each iteration.
+
+```py
+names = ["Khant Zaw","Kyaw Hsu Thway","Min Lwin","Kyaw Lwin","Myo Myit Aung"];
+
+i=0;
+while i < len(names):
+    print(names[i]);
+    i=i+1;
+
+```
+
+### Looping Using List Comprehension
+List Comprehension offers the shortest syntax for looping through lists:
+
+Example
+```py
+# only at python 3
+[print(x) for x in names];
+```
+
+---
+## **List Comprehension**
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+The Syntax
+```py
+newlist = [expression for item in iterable if condition == True]
+```
+The return value is a new list, leaving the old list unchanged.
+
+
+Example
+```py
+names = ["Liverpool","ManU","Man City","Everton","Spurs"];
+newList = [x for x in names if "a" in x];
+print(newList);
+```
+
+---
+
+## **`Sort Lists`**
+
+Sort List Alphanumerically
+List objects have a sort() method that will sort the list alphanumerically, ascending, by default:
+
+Example
+```py
+dataList = ["Egg","Facebook","Gozilla","Horse","Apple","Ball","Cat","Dog"];
+dataList.sort();
+print(dataList);
+```
+
+## **`Sort Descending`**
+To sort descending, use the keyword argument reverse = True:
+
+```py
+dataList = ["Egg","Facebook","Gozilla","Horse","Apple","Ball","Cat","Dog"];
+dataList.sort(reverse=True);
+print(dataList);
+```
+
+
+---
+
+## **`Copy Lists`**
+
+```py
+rawList = [100, 50, 65, 82, 23]
+dataNum = rawList.copy();
 ```
