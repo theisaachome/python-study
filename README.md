@@ -17,3 +17,4 @@
 - [Day 004-005 Python Data Types](./day-004-005/notes.md)
     - [Python Boolean](./day-004-007/notes.md)
     - [Python List](./day-004-007/list-type.md)
+    - [Python String](./day-008/python-string.md)
