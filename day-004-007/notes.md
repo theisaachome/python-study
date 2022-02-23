@@ -6,7 +6,7 @@
 - [Evaluate Values and Variables](#evaluate-values-and-variables)
 ---
 
-### **`Boolean Values`**
+### **Boolean Values**
 
 To know if an expression is True or False.
 
@@ -36,7 +36,7 @@ else:
 ```
 
 ---
-### **`Evaluate Values and Variables`**
+### **Evaluate Values and Variables**
 
 
 Almost any value is evaluated to True if it has some sort of content.
