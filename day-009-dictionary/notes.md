@@ -12,6 +12,8 @@
 - [Change Dictionary Items](#change-dictionary-items)
     - [Update Items](#update-dictionary)
     - [Add Items](#add-dictionary-items)
+- [Loop Dictionaries](#loop-dictionaries)
+
 ---
 
 ## Dictionary
@@ -163,4 +165,88 @@ The clear() method empties the dictionary:
 
 ```py
 account.clear()
+```
+
+----
+
+## Loop Dictionaries
+
+- using for loop
+
+```py
+for acc in account:
+    print(acc)
+```
+
+```py
+for key in account:
+    print(account[key]);
+```
+
+the `values()` method to return values of a dictionary:
+
+```py
+for acc in account.values():
+    print(acc)
+```
+
+
+ the `keys()` method to return the keys of a dictionary:
+
+ ```py
+ for acc in account.keys():
+    print(acc);
+ ```
+
+Using the items() method:
+```py
+for acc in account.items():
+    print(acc);
+```
+
+
+---
+## Copy Dictionary
+
+
+the copy() method:
+
+```py
+phone_brand= {
+    "id": "1",
+    "name": "Nokia",
+    "logo": "www.example/nokia",
+}
+```
+```py
+
+newBrand = phone_brand.copy();
+newBrand["year"]=1990;
+print(phone_brand);
+print(newBrand)
+```
+
+ The built-in function dict():
+
+ ```py
+secondBrand= dict(newBrand);
+print(secondBrand);
+ ```
+
+ ---
+ ## Nested Dictionaries
+
+```py
+ car ={
+    "numberOfGear":6,
+    "bodyType":"Coupe",
+    "numberOfSeater":4,
+    "width":"1803 mm",
+    "length":"4380 mm",
+    "ownner":{
+        "name":"Aung Aung",
+        "address":"Yangon",
+        "email":"aung@gmail.com"
+    }
+}
 ```

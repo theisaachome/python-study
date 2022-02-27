@@ -6,8 +6,8 @@ student = {
     "isScholarship":False,
     "studies":["Social Science","Communications","Business"]
 }
-# year = student['year'];
-# print("She is studing in ",year);
+year = student['year'];
+print("She is studing in ",year);
 name = student.get("name");
 print("Name : ",name);
 
