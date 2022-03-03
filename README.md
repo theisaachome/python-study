@@ -14,7 +14,15 @@
 - [Day 003 - Python Data Types](./day-003/notes.md)
     - [Python Numbers](./day-003/number-type.md)
 
-- [Day 004-005 Python Data Types](./day-004-005/notes.md)
+- [Day 004-007 Python Data Types](./day-004-007/notes.md)
     - [Python Boolean](./day-004-007/notes.md)
     - [Python List](./day-004-007/list-type.md)
-    - [Python String](./day-008/python-string.md)
+- [Day 008 Python String](./day-008/python-string.md)
+
+- [Day 009 Python Dictionary](./day-009-dictionary/notes.md)
+
+- [Day 010 Python](./day-010-Python/notes.md)
+    - [Python Set](./day-010-Python/notes.md)
+    - [Python While](./day-010-Python/while-loop.md)
+    - [Python Function](./day-010-Python/python_function.md)
+    - [Python Lambda](./day-010-Python/lambda.md)
