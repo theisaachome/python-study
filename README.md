@@ -26,3 +26,6 @@
     - [Python While](./day-010-Python/while-loop.md)
     - [Python Function](./day-010-Python/python_function.md)
     - [Python Lambda](./day-010-Python/lambda.md)
+
+- Day 011 Python
+    - [Python Class](./day-011/class-note.md)
